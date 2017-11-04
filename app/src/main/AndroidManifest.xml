@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assalaam.projetc.id.komponentkr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".komponentkr">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Mesin" />
+        <activity android:name=".Profil" />
+        <activity android:name=".BlokSilindir" />
+        <activity android:name=".Torak" />
+        <activity android:name=".BatangTorak" />
+        <activity android:name=".PorosEngkol" />
+        <activity android:name=".Bantalan" />
+        <activity android:name=".RodaPegas" />
+        <activity android:name=".Katup" />
+        <activity android:name=".PegasKatup" />
+        <activity android:name=".WeebViiew" />
+        <activity android:name=".TausKatup" />
+        <activity android:name=".BatangPenumbuk" />
+        <activity android:name=".PorosBubungan" />
+        <activity android:name=".Karter" />
+        <activity android:name=".PistonPin"></activity>
+    </application>
+
+</manifest>

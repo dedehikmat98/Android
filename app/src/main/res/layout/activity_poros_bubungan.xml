@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_poros_bubungan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/asw"
+    tools:context="assalaam.projetc.id.komponentkr.PorosBubungan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/b3"
+        android:id="@+id/imageView"
+        android:gravity="center"
+        android:layout_weight="0.01"
+        android:layout_below="@+id/textView4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poros Bubungan"
+        android:fontFamily="cursive"
+        android:textColor="#00FFFF"
+        android:textSize="21dp"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="adalah sebuah alat yang digunakan dalam mesin torak untuk menjalankan valve poppet. Dia terdiri dari batangan silinder. Cam membuka katup dengan menekannya, atau dengan mekanisme bantuan lainnya, ketika mereka berputar.
+
+        Hubungan antara perputaran camshaft dengan perputaran poros engkol sangat penting. Karena katup mengontrol aliran masukan bahan bakar dan pengeluaran, mereka harus dibuka dan ditutup pada saat yang tepat selama stroke piston. Untuk alasan ini, camshaft dihubungkan dengan crankshaft secara langsung, atau melalui mekanisme atau secara tidak langsung melalui rantai yang disebut rantai waktu. Dalam beberapa rancangan camshaft juga menggerakkan distributor, minyak dan pompa bahan bakar"
+        android:fontFamily="cursive"
+        android:textColor="#00FFFF"
+        android:textSize="16dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

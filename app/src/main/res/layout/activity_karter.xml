@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_karter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asw"
+    tools:context="assalaam.projetc.id.komponentkr.Karter">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karter"
+        android:fontFamily="cursive"
+        android:textColor="#00FFFF"
+        android:textSize="21dp"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/b4"
+        android:id="@+id/imageView"
+        android:gravity="center"
+        android:layout_weight="0.01"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adalah untuk menampung oli mesin untuk pelumasan. Bak oli ini diberi packing atau perpak yang bertujuan agar tidak terjadi kebocoran, oil pan ini dibautkan dengan blok silinder. Bak oli akan menutupi bagian bawah dari blok silinder, yang terdiri dari poros engkol dan komponen lainnya."
+        android:fontFamily="cursive"
+        android:textColor="#00FFFF"
+        android:textSize="25dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageView" />
+</RelativeLayout>

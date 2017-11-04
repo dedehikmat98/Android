@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_komponentkr"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asw"
+    tools:context="assalaam.projetc.id.komponentkr.komponentkr">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Komponen TKR"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="cursive"
+        android:textColor="#7CFC00"/>
+
+    <Button
+
+        android:text="Mesin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_mesin"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:background="@android:drawable/menu_frame"
+        android:fontFamily="cursive"
+        android:textColor="#00FF00"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:textColor="#00f"
+        android:id="@+id/activity_profil"
+        android:layout_width="70dp"
+        android:layout_height="54dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@drawable/green"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/activity_weeb_viiew"
+        android:layout_width="70dp"
+        android:layout_height="54dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@drawable/web"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </Button>
+</RelativeLayout>

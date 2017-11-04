@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_batang_torak"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/asw"
+    tools:context="assalaam.projetc.id.komponentkr.BatangTorak">
+        <ImageView
+            android:layout_width="1111dp"
+            android:layout_height="120dp"
+            android:background="@drawable/c"
+            android:id="@+id/imageView"
+            android:gravity="center"
+            android:layout_weight="0.01"
+            android:layout_below="@+id/textView4" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="pengertian : Batang torak atau connecting rod adalah suatu komponen utama mesin yang berfungsi untuk menghubungkan piston ke poros engkol dan selanjutnya menerima tenaga dari piston yang diperoleh dari pembakaran dan meneruskannya ke poros engkol.
+
+Bagian ujung connecting rod yang berhubungan dengan pin piston disebut small end. Sedangkan yang berhubungan dengan poros engkol disebut big end. Poros engkol berputar pada kecepatan tinggi di dalam big end, dan mengakibatkan temperatur menjadi naik.
+
+Untuk menghindari hal tersebut, maka metal dipasangkan dalam big end. Metal ini dilumasi dengan oli dan sebagian dari oli ini dipercikkan dari lubang oli ke bagian dalam piston untuk mendinginkan piston atau torak"
+        android:fontFamily="cursive"
+        android:textColor="#00FFFF"
+        android:textSize="14dp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batang torak"
+        android:fontFamily="cursive"
+        android:textColor="#00FFFF"
+        android:textSize="21dp"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+</RelativeLayout>
+
